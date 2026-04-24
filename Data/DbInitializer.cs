@@ -12,8 +12,8 @@ public static class DbInitializer
 
         var admin = new AdminUser
         {
-            Email = "admin@example.com",
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword("Admin@123")
+            Email = "admin@gyana.com",
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword("Admin@20041212")
         };
 
         context.AdminUsers.Add(admin);
